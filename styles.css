@@ -1,0 +1,101 @@
+section{
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(grey,black);
+}
+.container
+{
+    display:grid;
+    z-index: 100;
+    width: 500px;
+    height: 500px;
+}
+.container:hover
+{
+    cursor: pointer;
+}
+.mode
+{
+    align-self: flex-start;
+    padding-left:250px ;
+    padding-bottom: 10px;
+}
+.buttons
+{
+    padding: 20px;
+    align-items: ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.reset
+{
+    height: 20px;
+    width: 100px;
+}
+.resize
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height:30pxpx;
+}
+.graybtn
+{
+    width: 100px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.blackbtn
+{
+    width: 100px;
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+}
+.whitebtn
+{
+    width: 100px;
+    background-color:white;
+    border-radius: 10px;
+    color:black;
+}
+.rgbbtn
+{
+    width: 100px;
+    background:linear-gradient(45deg ,rgb(60, 168, 196),rgb(162, 57, 204),yellow);
+    border-radius: 10px;
+    color:black;
+}
+.graybtn:hover
+{
+    cursor: pointer;
+}
+.blackbtn:hover
+{
+    cursor: pointer;
+}
+.rgbbtn:hover
+{
+    cursor: pointer;
+}
+.whitebtn:hover
+{
+    cursor:pointer;
+}
+.resizebtn:hover
+{
+    cursor:pointer;
+}
+.resizebtn
+{
+    width: 70px;
+}
+.error
+{
+    color: white;
+    font-size: small;
+}

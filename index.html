@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+<section>
+    <header>
+        <h1>ETCH-A-SKETCH</h1>
+    </header>
+    <div class="resize">
+    <input type="text" placeholder="enter the size" value ='16' onchange="changeSize(this.value)">
+    <button class ='resizebtn'>Resize</button>
+    </div>
+    <div class="error">Value must be between 2 and 100</div>
+    <div class="mode">Mode:coloring</div>
+    <div class="container"></div>
+    <div class="buttons">
+        <button class="reset" onclick="resetboard()">Reset Board</button>
+        <button  class="graybtn" onclick="changecolor('gray')"> Gray </button>
+        <button class="blackbtn" onclick="changecolor('black')" > Black </button>
+        <button  class="whitebtn" onclick="changecolor('white')"> Eraser </button>
+        <button  class="rgbbtn" onclick="changecolor('random')"> rgb </button>
+    </div>
+    
+</section>
+<script src="script.js" defer></script>
+</body>
+</html>
